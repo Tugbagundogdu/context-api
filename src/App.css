@@ -1,0 +1,42 @@
+
+.weather-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.city-dropdown {
+  margin-bottom: 20px;
+}
+
+.city-dropdown label {
+  margin-right: 10px;
+}
+
+.weather-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.day-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.current-day {
+  background-color: #e1f5fe;
+}
+
+.day-card p {
+  margin: 5px 0;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
